@@ -22,8 +22,7 @@ If a user case already exists for that user, the new user event will be appended
 ### User Case Title
 
 The title must consist of the following in order seperated by spaces:
-1. username (not the display name): This will allow the usercase to be searched by username
-2. user id embed: This will allow the usercase to be searched by user id
+1. user id embed: This will allow the usercase to be searched by user id
 
 ### User Case Description
 
