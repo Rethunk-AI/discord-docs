@@ -33,3 +33,11 @@ The initial post description must consist of the following in order seperated by
 3. any relevant message links that did not naturally fit in the description body.
 
 Any user event logged in this user case after the initial description only have to contain `2` and `3`.
+
+### User Case Convenstions
+
+Any further content in a user case may very from general discussion amongs staff members about the user or new user events being commited to the user case.  
+The user case should not be used as a logging channel by a bot.  
+A bot can keep its enternal database about all the users events.  
+Staff members may request this data when needed,
+it should not already be present in the user case as it would clutter too much and make it hard to look through for staff members.
