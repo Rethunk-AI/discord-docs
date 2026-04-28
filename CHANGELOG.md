@@ -4,60 +4,44 @@ All notable changes to this documentation are recorded here. Policy changes are 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+---
+
+## [2026-04-27] — Governance Bootstrap
 
 ### Added
-- Governance files: LICENSE (CC0), SECURITY.md, AGENTS.md, CONTRIBUTING.md, CHANGELOG.md
-- Formalized content policy violation reporting process
-- Critical AI constraint: human approval required for policy modifications
-- Community contribution guidelines and style guide
+- `LICENSE` — CC0 Public Domain declaration
+- `SECURITY.md` — Content policy violation reporting process, response timelines, content standards
+- `AGENTS.md` — Repository purpose, AI agent constraints, and critical human-approval requirement for policy changes
+- `CONTRIBUTING.md` — PR process, commit conventions, style guide, and checklist for contributors
+- `CHANGELOG.md` — This file; establishes policy change tracking
+- `HUMANS.md` — Operator guide covering repository structure, editing workflow, and common operations
+- `CLAUDE.md` — Claude Code session entrypoint
+
+### Policy Established
+- **AI constraint:** AI agents must not autonomously modify community guidelines, moderation policies, or staff procedures. All policy changes require a GitHub pull request with explicit staff approval before merge.
+- **Violation reporting:** Primary channel is GitHub Issues with `[VIOLATION]` label; urgent escalation via `@staff` in Discord.
+- **Response SLA:** Acknowledgement within 24 hours; investigation within 3 business days.
 
 ---
 
-## Version History
+## [2026-02-22] — Staff Moderation Workflow
 
-Documentation versioning aligns with policy releases. Use dates for tracking if no formal version scheme exists.
+### Added
+- `staff/user-cases_post-guidelines.md` — Conventions for creating and maintaining per-user moderation case posts in the `#user-cases` forum channel, including title format, initial post structure, and append-only event logging rules.
 
-### Policy Changes
+---
 
-**Policy changes should be recorded here with:**
-- Effective date
-- What changed (description of policy modification)
-- Why (context or RFC)
-- Impact (who is affected)
+## [2026-02-19] — Initial Commit
 
-### Content Updates
-
-**Major documentation updates** (new guides, substantial rewrites) may be noted here for reference, but routine improvements (typos, clarifications) don't require changelog entries.
-
-### Examples
-
-#### Example: Policy Update
-```
-2026-04-27 — Updated moderation guidelines v2.1
-- POLICY: staff approval now required for AI-assisted edits to policy docs
-- Context: prevent accidental policy drift from autonomous agent changes
-- Impact: all future policy PRs require @staff review before merge
-- Tracked in: AGENTS.md § CRITICAL AI CONSTRAINT
-```
-
-#### Example: Major Guide Addition
-```
-2026-04-20 — Added "Jailbreaking Techniques Guide"
-- New content in info/jailbreaking-techniques.md
-- Covers legal and ethical boundaries
-- Includes 5 techniques with examples and risks
-```
+### Added
+- `info/rules.md` — Server rules for the AI Maxxing Discord community, covering respect, discrimination, threats, harassment, offensive content, trolling, punishment evasion, NSFW, profiles, spamming, and advertising.
+- Repository initialized.
 
 ---
 
 ## Guidance for Maintainers
 
-- **Track every policy change** — date, what changed, why, impact
-- **Note major content additions** — new guides, tutorials, restructuring
-- **Skip routine updates** — typos, formatting, clarifications don't need changelog entries
-- **Link to PRs** — reference GitHub PR number for traceability
-
----
-
-**Last updated:** 2026-04-27
+- **Track every policy change** — date, what changed, why, impact.
+- **Note major content additions** — new guides, tutorials, restructuring.
+- **Skip routine updates** — typos, formatting, clarifications do not need changelog entries.
+- **Link to PRs** — reference GitHub PR number for traceability when available.
