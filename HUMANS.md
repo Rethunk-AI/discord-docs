@@ -4,7 +4,7 @@ Operator and contributor guide for maintaining the AI Maxxing Discord documentat
 
 ## What This Repo Is
 
-A pure-Markdown documentation repository. There is no build system, no runtime, and no package to install. All content is Markdown files read directly by Discord staff and community members via GitHub.
+A pure-Markdown documentation repository. There is no runtime or package to install. All content is Markdown files read directly by Discord staff and community members via GitHub. Local verification uses `make check` (see below).
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ A pure-Markdown documentation repository. There is no build system, no runtime, 
 
 ## Repository Structure
 
-```
+```text
 info/                          Community-facing content
   rules.md                     Server rules posted in Discord
 staff/                         Staff-only procedures
@@ -78,6 +78,16 @@ git push -u origin doc/my-change
 
 - No deploy step is needed. Changes are live on GitHub immediately after merge.
 - If the documentation is embedded in Discord (e.g., pinned messages or bots), update those references manually after merging.
+
+## Verify locally
+
+From the repository root:
+
+```bash
+make check
+```
+
+Runs markdownlint on governance Markdown (excludes `info/` and `staff/` policy content) and doc-audit tier checks.
 
 ---
 

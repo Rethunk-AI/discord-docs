@@ -10,7 +10,7 @@ Community-driven documentation for the AI Maxxing Discord server. Curated guides
 
 ## Content
 
-```
+```text
 info/          Community guides, tutorials, techniques
 staff/         Staff documentation, moderation guidelines
 README.md      Overview and entry point
@@ -19,6 +19,7 @@ README.md      Overview and entry point
 ## Contributing
 
 Documentation is maintained collaboratively. Contributions welcome via:
+
 1. GitHub pull requests (editing existing docs)
 2. Discord discussions + issue → PR workflow
 3. Staff review for policy/guideline changes
@@ -33,6 +34,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for process.
 - ❌ **Agents MUST NOT:** modify community guidelines, moderation policies, or staff procedures without explicit human approval
 
 All policy changes require:
+
 1. GitHub pull request for visibility
 2. Staff team review
 3. Explicit approval before merge
@@ -44,7 +46,7 @@ AI agents that violate this constraint should have their edits rejected and a ma
 
 - **Format:** Markdown (GitHub-flavored)
 - **Version Control:** Git + GitHub
-- **No special build process** — documentation is read directly from repository
+- **Local verify:** `make check` (markdownlint + doc-audit); no runtime or deploy step
 
 ## Governance Files
 
@@ -55,4 +57,4 @@ AI agents that violate this constraint should have their edits rejected and a ma
 
 ---
 
-**Last updated:** 2026-04-27
+**Last updated:** 2026-05-19
