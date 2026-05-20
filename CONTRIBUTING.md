@@ -14,6 +14,7 @@ We welcome contributions from community members! These guidelines help us mainta
 ## What to Contribute
 
 ### ✅ Welcome Contributions
+
 - **Improvements** — clarify confusing sections, fix typos, improve examples
 - **New guides** — document techniques, tools, or workflows
 - **Corrections** — point out outdated information or factual errors
@@ -21,6 +22,7 @@ We welcome contributions from community members! These guidelines help us mainta
 - **References** — links to relevant resources or research
 
 ### ❌ Not Accepted Without Approval
+
 - **Policy changes** — moderation guidelines, staff procedures
 - **Content removal** — only staff may remove or archive content
 - **Rebranding** — changes to community identity or official guidelines
@@ -30,18 +32,21 @@ See [SECURITY.md](SECURITY.md) for moderation policy details.
 ## Style Guide
 
 ### Markdown
+
 - Use standard GitHub-flavored Markdown
 - Headers: `#` for title, `##` for sections, `###` for subsections
 - Code blocks: use triple backticks with language (e.g., ` ```python `)
 - Lists: prefer unordered (`-`) for most cases
 
 ### Tone
+
 - **Helpful and inclusive** — avoid gatekeeping or judgment
 - **Clear and concise** — jargon okay if explained first
 - **Non-promotional** — focus on education, not sales
 - **Evidence-based** — cite sources when making claims
 
 ### Structure
+
 ```markdown
 # Guide Title
 
@@ -84,10 +89,11 @@ Brief intro (1-2 sentences what this covers)
 ## Questions?
 
 Ask in Discord:
+
 - `#documentation` for docs questions
 - `#ai-maxing` for content questions
 - `@staff` for moderation questions
 
 ---
 
-**Last updated:** 2026-04-27
+**Last updated:** 2026-05-19
