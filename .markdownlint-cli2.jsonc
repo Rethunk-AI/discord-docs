@@ -1,10 +1,11 @@
 {
-  "config": {
-    "default": true,
-    "MD013": false,
-    "MD024": { "siblings_only": true },
-    "MD040": true,
-    "MD060": false
-  },
-  "ignores": ["info/**", "staff/**", "CLAUDE.md"]
+	"config": {
+		"default": true,
+		"MD013": false,
+		"MD024": { "siblings_only": true },
+		"MD033": { "allowed_elements": ["h1"] },
+		"MD040": true,
+		"MD060": false
+	},
+	"ignores": ["info/**", "staff/**", "CLAUDE.md"]
 }
