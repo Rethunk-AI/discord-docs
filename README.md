@@ -21,13 +21,6 @@ See [HUMANS.md](HUMANS.md) for the full contributor workflow and prerequisites.
 - Pure Markdown — no build or runtime, verified with `make check`
 - CC0 public domain — freely reusable
 
-## Contents
-
-| Directory | Purpose |
-|-----------|---------|
-| `info/` | Community-facing guides, server rules, and AI techniques |
-| `staff/` | Staff procedures, moderation guidelines, and user-case conventions |
-
 ## Documentation
 
 | Document | Audience |
