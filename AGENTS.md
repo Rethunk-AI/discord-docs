@@ -1,60 +1,28 @@
 # AGENTS — AI Maxxing Documentation
 
-Community-driven documentation for the AI Maxxing Discord server. Curated guides, techniques, and resources.
+## Stack
 
-## Repository Purpose
+- Markdown (GitHub-flavored); Git + GitHub
+- Local verify: `make check` (markdownlint + doc-audit); no runtime or deploy
 
-- **Users:** Discord community members seeking AI guidance
-- **AI Agents:** Maintenance and updates via pull requests (with constraints — see below)
-- **Staff:** Moderation oversight and policy decisions
-
-## Content
+## Directory map
 
 ```text
-info/          Community guides, tutorials, techniques
-staff/         Staff documentation, moderation guidelines
-README.md      Overview and entry point
+info/     Community guides, rules, techniques
+staff/    Staff procedures and moderation guidelines
 ```
 
-## Contributing
+## Invariants
 
-Documentation is maintained collaboratively. Contributions welcome via:
+**Policy and moderation docs must not be autonomously modified by AI agents.**
 
-1. GitHub pull requests (editing existing docs)
-2. Discord discussions + issue → PR workflow
-3. Staff review for policy/guideline changes
+- Agents MAY: typos, clarity, examples, technical content
+- Agents MUST NOT: change community guidelines, moderation policies, or staff procedures without explicit human approval
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for process.
+Policy changes require a PR, staff review, approval, and a CHANGELOG entry with effective date.
 
-## 🚨 CRITICAL AI CONSTRAINT
+## Links
 
-**Policy and moderation documents must NOT be autonomously modified by AI agents.**
-
-- ✅ **Agents MAY:** fix typos, improve clarity, add examples, update technical content
-- ❌ **Agents MUST NOT:** modify community guidelines, moderation policies, or staff procedures without explicit human approval
-
-All policy changes require:
-
-1. GitHub pull request for visibility
-2. Staff team review
-3. Explicit approval before merge
-4. CHANGELOG entry with effective date
-
-AI agents that violate this constraint should have their edits rejected and a manual fix applied by staff.
-
-## Technology
-
-- **Format:** Markdown (GitHub-flavored)
-- **Version Control:** Git + GitHub
-- **Local verify:** `make check` (markdownlint + doc-audit); no runtime or deploy step
-
-## Governance Files
-
-- [LICENSE](LICENSE) — CC0 Public Domain
-- [SECURITY.md](SECURITY.md) — Content policy violation reporting
-- [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute
-- [CHANGELOG.md](CHANGELOG.md) — Version history and policy changes
-
----
-
-**Last updated:** 2026-05-19
+- [CONTRIBUTING.md](CONTRIBUTING.md) — PR process and style
+- [HUMANS.md](HUMANS.md) — contributor workflow
+- [SECURITY.md](SECURITY.md) — content policy reporting
