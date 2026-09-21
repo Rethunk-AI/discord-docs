@@ -25,10 +25,11 @@ Place community guides in `info/`, staff procedures in `staff/`. Filenames: lowe
 ## Verify
 
 ```bash
+make lint
 make check
 ```
 
-Markdownlint on governance Markdown (excludes `info/` and `staff/` policy content) plus doc-audit tier checks.
+`make lint` is markdownlint on governance Markdown (it excludes `info/` and `staff/` policy content). GitHub Actions runs that on `main` and on pull requests. `make check` also runs doc-audit; that script lives on operator machines, not on the CI runner.
 
 Merged changes are live on GitHub immediately; update Discord pins or bot references manually if embedded.
 
