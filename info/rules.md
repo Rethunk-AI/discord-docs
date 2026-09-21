@@ -3,7 +3,7 @@ The usual set of discord server rules:
 **__DO NOT__ advertise, spam, harass, annoy, etc...**
 Above all, use __**common sense**__.
 
-- Follow the [Discord Community Guidelines](https://discordapp.com/guidelines).
+- Follow the [Discord Community Guidelines](https://discord.com/guidelines).
 - Respect server staff. If a staff member tells you to do/stop something, follow their instructions.
 - You must be 13 years or older to use Discord. No exceptions.
 - Please try to refrain from using languages other than English in the server.
