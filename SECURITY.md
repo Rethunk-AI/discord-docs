@@ -63,7 +63,7 @@ Community documentation must comply with Discord community guidelines and our mo
 ## Questions?
 
 - Ask in Discord: `#documentation` or `#ai-maxing`
-- Open a [GitHub discussion](https://github.com/Rethunk-AI/discord-docs/discussions)
+- Open a [GitHub issue](https://github.com/Rethunk-AI/discord-docs/issues)
 
 ---
 
