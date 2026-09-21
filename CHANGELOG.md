@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [Unreleased]
+
+### Added
+
+- GitHub Actions workflow that runs `make lint` on `main` and pull requests
+- README catalog links to the published server rules and staff user-case docs
+
+### Changed
+
+- Discord Community Guidelines link uses `https://discord.com/guidelines`
+- SECURITY.md questions point at GitHub Issues; this repository has no Discussions
+
+---
+
 ## [2026-05-19] — Local verification
 
 ### Added
