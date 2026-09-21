@@ -3,7 +3,7 @@
 ## Stack
 
 - Markdown (GitHub-flavored); Git + GitHub
-- Local verify: `make check` (markdownlint + doc-audit); no runtime or deploy
+- Local verify: `make check` (markdownlint + doc-audit); GitHub Actions runs `make lint`; no runtime or deploy
 
 ## Directory map
 

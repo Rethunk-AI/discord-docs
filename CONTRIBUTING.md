@@ -81,6 +81,7 @@ Brief intro (1-2 sentences what this covers)
 
 - [ ] Read related docs to avoid duplication
 - [ ] Spell-check and grammar review
+- [ ] `make lint` passes (markdownlint; GitHub Actions runs the same target)
 - [ ] Verify links are current and working
 - [ ] Code examples run without errors
 - [ ] Tone matches our community standards
