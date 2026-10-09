@@ -33,8 +33,8 @@ See [HUMANS.md](HUMANS.md) for the full contributor workflow and prerequisites.
 | [info/rules.md](info/rules.md) | Members — AI Maxxing server rules |
 | [staff/user-cases_post-guidelines.md](staff/user-cases_post-guidelines.md) | Staff — `#user-cases` forum posts |
 | [HUMANS.md](HUMANS.md) | Operators and contributors — how to add or update documentation |
-| [AGENTS.md](AGENTS.md) | AI agents and developers — constraints and contribution workflow |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | Pull request process, style guide, commit conventions |
+| [AGENTS.md](AGENTS.md) | AI agents — constraints on editing policy docs |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Pull request process and style guide |
 | [SECURITY.md](SECURITY.md) | Content policy violation reporting |
 | [CHANGELOG.md](CHANGELOG.md) | Policy changes and major content updates |
 
