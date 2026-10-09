@@ -94,7 +94,3 @@ Ask in Discord:
 - `#documentation` for docs questions
 - `#ai-maxing` for content questions
 - `@staff` for moderation questions
-
----
-
-**Last updated:** 2026-05-19

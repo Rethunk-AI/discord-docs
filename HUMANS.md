@@ -9,15 +9,15 @@ Contributor guide for AI Maxxing Discord documentation.
 
 ## Usage
 
-**GitHub web UI** (small edits): open file → Edit → commit `doc(<scope>): description` → branch + PR.
+**GitHub web UI** (small edits): open file → Edit → commit `docs(<scope>): description` → branch + PR.
 
 **Git CLI:**
 
 ```bash
-git checkout -b doc/my-change
+git checkout -b docs/my-change
 git add <files>
-git commit -m "doc(<scope>): short description"
-git push -u origin doc/my-change
+git commit -m "docs(<scope>): short description"
+git push -u origin docs/my-change
 ```
 
 Place community guides in `info/`, staff procedures in `staff/`. Filenames: lowercase, hyphen-separated, `.md`. Follow [CONTRIBUTING.md](CONTRIBUTING.md). Policy or rule changes need staff approval — open an issue first.
