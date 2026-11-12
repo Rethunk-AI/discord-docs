@@ -8,7 +8,7 @@
 ## Directory map
 
 ```text
-info/     Community guides, rules, techniques
+info/     Community rules
 staff/    Staff procedures and moderation guidelines
 ```
 
